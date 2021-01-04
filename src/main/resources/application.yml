@@ -8,3 +8,10 @@ spring:
     password: mysecretpassword
   flyway:
     enabled: true
+  application:
+    name: auth-service
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
